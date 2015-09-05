@@ -17,6 +17,10 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- endbuild -->
   </head>
   <body>
@@ -24,42 +28,35 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">ECM website</h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a></h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          
-
-          <h4><a href="http://getbootstrap.com/">Bootstrap</a></h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          
+    <div class="wrapper">
+      <div class="info-bar">
+        <div class="container">
+          <a class="icon cmn-tut" data-title="Back To Tutorial" href="http://callmenick.com/?p=718"></a>
+          <a class="icon cmn-prev" data-title="Pevious Demo - Revealing Content Overlays With CSS3 Transitions" href="http://callmenick.com/tutorial-demos/revealing-content-overlays/"></a>
+        <!-- <a class="icon cmn-next" data-title="Next Demo - " href="http://callmenick.com/tutorial-demos/..."></a> -->
+          <a class="icon cmn-download" data-title="Download Source" href="http://callmenick.com/tutorial-demos/simple-parallax-effect/simple-parallax-effect-source.zip"></a>
+          <a class="icon cmn-archive" data-title="Tutorial Archives" href="http://callmenick.com/category/tutorials/"></a>
         </div>
       </div>
 
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div>
-    </div>
-    
+      <section class="module parallax parallax-1">
+        <div class="container">
+          <h1>lorem</h1>
+        </div>
+      </section>
+
+      <section class="module content">
+        <div class="container">
+          <h2>Lorem ipsum Dolor.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam officia delectus voluptas. Repellendus nostrum perspiciatis, perferendis quo, quae cumque, deleniti id eum reprehenderit incidunt veritatis commodi impedit. Veniam, ratione deleniti.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facere ullam doloremque ex consequuntur ipsa corporis dignissimos deserunt nesciunt minus odio neque maxime porro enim autem, in est suscipit accusamus?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nesciunt iure optio incidunt omnis repellat, culpa sit rem recusandae tempora, ipsam deleniti minima perspiciatis voluptatibus labore rerum totam praesentium dolores.</p>
+        </div>
+      </section>
+    </div> <!-- Wrapper -->
+
+
+
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
@@ -67,7 +64,7 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    
+
     <!-- build:js(.) scripts/plugins.js -->
     <script src="/bower_components/bootstrap/js/affix.js"></script>
     <script src="/bower_components/bootstrap/js/alert.js"></script>
@@ -82,7 +79,7 @@
     <script src="/bower_components/bootstrap/js/collapse.js"></script>
     <script src="/bower_components/bootstrap/js/tab.js"></script>
     <!-- endbuild -->
-    
+
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
