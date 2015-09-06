@@ -115,8 +115,8 @@ main {
   padding: 0;
   width: 30px;
   height: 30px;
-  background-image: url("/images/core/icons-dark.png");
-  background-image: url("/images/core/icons-dark.svg"), none;
+  background-image: url("../images/core/icons-dark.png");
+  background-image: url("../images/core/icons-dark.svg"), none;
   opacity: 0.3;
 }
 .info-bar .cmn-tut {

@@ -1,7 +1,6 @@
-/*+++++++++++++++++++++++++++
-            SECTIONS
-+++++++++++++++++++++++++++++*/
-
+/* ============================================================
+  SECTIONS
+============================================================ */
 section.module:last-child {
   margin-bottom: 0;
 }
@@ -12,7 +11,7 @@ section.module h2 {
 }
 section.module p {
   margin-bottom: 40px;
-  font-size:  16px;
+  font-size: 16px;
   font-weight: 300;
 }
 section.module p:last-child {
@@ -41,13 +40,13 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../img/demo/_small/1.jpg");
+  background-image: url("../images/demo/_small/5.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("../img/demo/_small/2.jpg");
+  background-image: url("../images/demo/_small/2.jpg");
 }
 section.module.parallax-3 {
-  background-image: url("../img/demo/_small/3.jpg");
+  background-image: url("../images/demo/_small/3.jpg");
 }
 
 @media all and (min-width: 600px) {
